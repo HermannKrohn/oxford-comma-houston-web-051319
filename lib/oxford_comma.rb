@@ -4,6 +4,7 @@ def oxford_comma(array)
     array.join
   elsif (array.length == 2)
     newArr << "#{array[0]} and #{array[1]}"
+    newArr.join
   else
     newArr = []
     i=0 
